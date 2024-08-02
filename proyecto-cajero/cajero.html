@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cajero ATM</title>
+    <link rel="stylesheet" href="cajero.css" />
+  </head>
+  <body>
+    <p id="saludo" class="bienvenida"></p>
+
+    <div class="form-cajero">
+      <button class="button" id="btnConsultar">Consultar saldo</button>
+      <br />
+
+      <input
+        class="input"
+        type="number"
+        name="agregarMonto"
+        id="depositar"
+        placeholder="Ingresar monto a abonar"
+      />
+      <button id="btnDepositar" class="button">Agregar Monto</button>
+
+      <br />
+
+      <input
+        class="input"
+        type="number"
+        name="retirarMpnto"
+        id="retirar"
+        placeholder="Ingresar monto a retirar"
+      />
+
+      <button id="btnRetirar" class="button">Retirar Monto</button>
+
+      <button class="cerrarSesion" onclick="cerrarSesion()">
+        Cerrar sesion
+      </button>
+
+      <p id="alerta" class="alerta"></p>
+      <p id="alertaSaldo" class="alerta"></p>
+      <p id="alertaTransaccion" class="alerta"></p>
+    </div>
+
+    <div>
+      <p id="saldo"></p>
+      <p id="transaccion"></p>
+      <p id="nuevoSaldo"></p>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

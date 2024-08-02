@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: beige;
+}
+
+.form-cajero {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.bienvenida {
+  margin: 0;
+  padding: 75px;
+  text-align: center;
+  height: 40px;
+  margin-bottom: 30px;
+  font-size: 50px;
+  color: #6a4f91;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 10px;
+  color: #6a4f91;
+  text-align: center;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #6a4f91;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a082ca;
+}
+
+.input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.text-area {
+  width: calc(100% - 20px);
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.cerrarSesion {
+  margin: 15px;
+  padding: 10px;
+  background-color: #6a4f91;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
